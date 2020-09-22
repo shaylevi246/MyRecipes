@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="60dp"
+                android:maxHeight="60dp"
+                android:hint="@string/name_recipe"
+                android:background="@drawable/edit_text_shape"
+                android:layout_margin="10dp"
+                android:id="@+id/recipeNameET"
+                android:textColorHint="@color/colorPrimaryDark">
+
+            </EditText>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="60dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/edit_text_shape"
+                android:hint="@string/description"
+                android:id="@+id/recipe_descriptionET"
+                android:textColorHint="@color/colorPrimaryDark">
+
+            </EditText>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text ="@string/add_picture"
+                android:textSize="15sp"
+                android:id="@+id/pic_btn"
+                android:background="@drawable/btn_shape">
+
+            </Button>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_margin="10dp"
+                android:id="@+id/show_pic">
+
+            </ImageView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_margin="10dp"
+                android:hint="@string/recipe_category"
+                android:textSize="20sp"
+                android:paddingTop="15dp"
+                android:id="@+id/recipe_categoryET"
+                android:background="@drawable/edit_text_shape"
+                android:textColorHint="@color/colorPrimaryDark">
+
+            </TextView>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="100dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/edit_text_shape"
+                android:hint="@string/ingredients"
+                android:id="@+id/recipe_ingredientsET"
+                android:textColorHint="@color/colorPrimaryDark">
+
+            </EditText>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="100dp"
+                android:layout_margin="10dp"
+                android:hint="@string/directions"
+                android:background="@drawable/edit_text_shape"
+                android:id="@+id/recipe_directionsET"
+                android:textColorHint="@color/colorPrimaryDark">
+
+            </EditText>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="100dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/edit_text_shape"
+                android:hint="@string/comments"
+                android:id="@+id/recipe_commentsET"
+                android:textColorHint="@color/colorPrimaryDark">
+
+            </EditText>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text ="@string/save"
+                android:layout_gravity="center"
+                android:textSize="15sp"
+                android:id="@+id/save_btn"
+                android:background="@drawable/btn_shape">
+
+            </Button>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

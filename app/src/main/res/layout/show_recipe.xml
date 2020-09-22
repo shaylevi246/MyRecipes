@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/name_recipe"
+                android:textSize="20sp"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:id="@+id/show_recipe_name">
+
+            </TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="60dp"
+                android:textSize="20sp"
+                android:paddingTop="15dp"
+                android:background="@drawable/edit_text_shape"
+                android:layout_margin="10dp"
+                android:id="@+id/show_recipeNameTV"
+                android:textColorHint="@color/colorPrimaryDark">
+
+            </TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/description"
+                android:textSize="20sp"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:id="@+id/show_recipe_description">
+
+            </TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="60dp"
+                android:layout_margin="10dp"
+                android:textSize="20sp"
+                android:paddingTop="15dp"
+                android:background="@drawable/edit_text_shape"
+                android:id="@+id/show_recipe_descriptionTV"
+                android:textColorHint="@color/colorPrimaryDark">
+
+            </TextView>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="370dp"
+                android:layout_margin="10dp"
+                android:id="@+id/show_show_pic">
+
+            </ImageView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/recipe_category"
+                android:textSize="20sp"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:id="@+id/show_recipe_category">
+
+            </TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_margin="10dp"
+                android:textSize="20sp"
+                android:paddingTop="15dp"
+                android:id="@+id/show_recipe_categoryTV"
+                android:background="@drawable/edit_text_shape"
+                android:textColorHint="@color/colorPrimaryDark">
+
+            </TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/ingredients"
+                android:textSize="20sp"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:id="@+id/show_recipe_ingredients">
+
+            </TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="100dp"
+                android:layout_margin="10dp"
+                android:textSize="20sp"
+                android:paddingTop="5dp"
+                android:background="@drawable/edit_text_shape"
+                android:id="@+id/show_recipe_ingredientsTV"
+                android:textColorHint="@color/colorPrimaryDark">
+
+            </TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/directions"
+                android:textSize="20sp"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:id="@+id/show_recipe_directions">
+
+            </TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="100dp"
+                android:layout_margin="10dp"
+                android:textSize="20sp"
+                android:paddingTop="5dp"
+                android:background="@drawable/edit_text_shape"
+                android:id="@+id/show_recipe_directionsTV"
+                android:textColorHint="@color/colorPrimaryDark">
+
+            </TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/comments"
+                android:textSize="20sp"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:id="@+id/show_recipe_comments">
+
+            </TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="100dp"
+                android:layout_margin="10dp"
+                android:textSize="20sp"
+                android:paddingTop="5dp"
+                android:background="@drawable/edit_text_shape"
+                android:id="@+id/show_recipe_commentsTV"
+                android:textColorHint="@color/colorPrimaryDark">
+
+            </TextView>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

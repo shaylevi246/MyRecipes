@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">MyRecipes</string>
+    <string name="preview">Welcome to MyRecipes,
+        here you can write and save all of
+        your favorite recipes</string>
+    <string name="my_recipes">My recipes</string>
+    <string name="add_recipe">Add new recipe</string>
+    <string name="name_recipe">Recipe name</string>
+    <string name="recipe_category">Category</string>
+    <string name="salads_category">Salads and appetizers</string>
+    <string name="main_course_category">Main course</string>
+    <string name="desserts_category">Desserets</string>
+    <string name="description">Description</string>
+    <string name="ingredients">Ingredients</string>
+    <string name="directions">Directions</string>
+    <string name="save">Save</string>
+    <string name="comments">Comments</string>
+    <string name="add_picture">ADD A PICTURE</string>
+    <string name="back_main">Back to Main page</string>
+    <string name="recipe">recipe</string>
+    <string name="pick_a_category">Choose a category</string>
+    
+    <string-array name="choose_category">
+        <item> @string/salads_category </item>
+        <item> @string/main_course_category </item>
+        <item> @string/desserts_category </item>
+    </string-array>
+    <string name="cameraBtn_not_pushed">Sorry, Recipe cannot be Saved,  you must push on the camera button</string>
+    <string name="category_and_name">Sorry, Recipe cannot be saved, you must enter category and name</string>
+    <string name="save_success">Your recipe has been successfully saved</string>
+    <string name="permission_not_granted">Cannot take picture, permission must be granted</string>
+    <string name="remove_success">Recipe successfully removed</string>
+    <string name="myrecipe">My recipe</string>
+    <string name="my_saved_recipes">My Saved Recipes</string>
+    <string name="erase_option">In order to erase Recipe, slide the requested Recipe right or left</string>
+    <string name="erase_sure">Are you sure you want to delete this recipe?</string>
+    <string name="yes">yes</string>
+    <string name="no">no</string>
+    <string name="not_erase">Thank you for not erasing me</string>
+    <string name="close">"Close "</string>
+    <string name="search">search recipe</string>
+</resources>

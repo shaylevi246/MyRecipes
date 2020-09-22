@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">המתכונים שלי</string>
+    <string name="preview">ברוכים הבאים למתכונים שלי כאן תוכלו לרשום ולשמור את כל המתכונים האהובים עליכם</string>
+    <string name="my_recipes">המתכונים שלי</string>
+    <string name="add_recipe">הוספת מתכון חדש</string>
+    <string name="name_recipe">שם המתכון</string>
+    <string name="recipe_category">קטגוריה</string>
+    <string name="salads_category">סלטים ומנות ראשונות</string>
+    <string name="main_course_category">מנות עיקריות</string>
+    <string name="desserts_category">קינוחים</string>
+    <string name="description">תיאור המנה</string>
+    <string name="directions">הנחיות</string>
+    <string name="save">שמור</string>
+    <string name="ingredients">מרכיבים</string>
+    <string name="comments">הערות</string>
+    <string name="add_picture">הוסף תמונה</string>
+    <string name="back_main">חזרה לדף הראשי</string>
+    <string name="recipe">מתכון</string>
+    <string name="pick_a_category">בחר קטגוריה</string>
+    <string name="cameraBtn_not_pushed">סליחה, המתכון אינו יכול להישמר, חובה ללחוץ על כפתור המצלמה</string>
+    <string name="category_and_name">סליחה, המתכון אינו יכול להישמר, חובה למלא קטגוריה ושם</string>
+    <string name="save_success">המתכון נשמר בהצלחה</string>
+    <string name="permission_not_granted">אין אפשרות לצלם תמונה,  על מנת להשתמש באפליקציה הרשאתך היא חובה</string>
+    <string name="remove_success">המתכון הוסר בהצלחה</string>
+    <string name="myrecipe">המתכון שלי</string>
+    <string name="my_saved_recipes">המתכונים השמורים שלי</string>
+    <string name="erase_option">על מנת למחוק מתכון, החלק את המתכון ימינה או שמאלה</string>
+    <string name="erase_sure">האם להמשיך עם מחיקת המתכון?</string>
+    <string name="yes">כן</string>
+    <string name="no">לא</string>
+    <string name="not_erase">תודה על שלא מחקת אותי</string>
+    <string name="close">סגור</string>
+    <string name="search">חפש מתכון</string>
+</resources>
